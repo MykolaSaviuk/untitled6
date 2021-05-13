@@ -6,18 +6,18 @@ const Casts = () => {
     console.log(casts);
 
     const fetchData = async() => {
-        const response = await fetch('https://api.sampleapis.com/futurama/cast');
+        const response = await fetch('https://reqres.in/');
         const json = await response.json();
 
         setCasts(json);
     }
 
     useEffect(() => {
-        fetchData();
+        fetchData ();
     }, [])
     return (
-        {casts && casts.map()}
-    )
+        casts.map
+)
 }
 
 export default Casts;
