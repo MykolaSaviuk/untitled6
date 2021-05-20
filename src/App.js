@@ -3,8 +3,7 @@ import React from "react";
 import {BrowserRouter as Router} from "react-router-dom";
 import NavMenu from "./components/NavMenu/NavMenu";
 import Routes from "./routes/routes";
-import NonControled from "./components/Noncontroled";
-import Controled from "./components/controled";
+
 
 
 const Counter = () => {
