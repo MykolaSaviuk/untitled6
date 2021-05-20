@@ -11,7 +11,7 @@ const Lists = () => {
         }
 
         useEffect(() => {
-                fetchData()
+                fetchData ()
         }, [count])
 
         const incrementCount = () => {

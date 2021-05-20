@@ -10,6 +10,7 @@ const NavMenu = () => {
             <Link to='/lists'>Lists users</Link>
             <br/>
             <Link to='/user1'>User1</Link>
+            <Link to='/counter'>Counter</Link>
         </div>
     )
 }
